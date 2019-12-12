@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-remark-pills",
+  "version": "1.0.0",
+  "description": "Parse pill shortcode to pill html code in markdown",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agrawalaayushi/gatsby-remark-pills"
+  },
+  "keywords": [
+    "pill",
+    "shortcode",
+    "markdown",
+    "gatsby",
+    "custom"
+  ],
+  "author": "Aayushi Agrawal aayushi.agrawal13@gmail.com",
+  "files": [
+    "dist/*"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "unist-util-visit": "^2.0.1"
+  }
+}
